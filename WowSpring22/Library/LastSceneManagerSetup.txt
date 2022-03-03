@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/EricTest/TestTerrain.unity
-=======
-- path: Assets/_Scenes/SampleScene.unity
->>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
