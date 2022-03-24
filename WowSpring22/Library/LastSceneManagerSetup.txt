@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/EricTest/TestTerrain.unity
+- path: Assets/_Scenes/Hula.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
