@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Hula.unity
+    guid: 21a9f4e6d53cba94a93d50c7f3d4aa5c
+  - enabled: 1
+    path: Assets/_Scenes/Galilee.unity
+    guid: 09bdd0953d540664a894061b04d3274a
   m_configObjects: {}
