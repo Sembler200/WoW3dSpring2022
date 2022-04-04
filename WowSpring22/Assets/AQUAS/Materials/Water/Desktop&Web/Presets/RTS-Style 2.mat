@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: RTS-Style 2
   m_Shader: {fileID: 4800000, guid: aa9048342df380e4d92213fdad40a94c, type: 3}
   m_ShaderKeywords: _ENABLEREFLECTIONS_ON

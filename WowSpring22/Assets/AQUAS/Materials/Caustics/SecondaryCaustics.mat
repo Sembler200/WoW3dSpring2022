@@ -20,14 +20,22 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Texture:
+<<<<<<< HEAD
+        m_Texture: {fileID: 2800000, guid: a8b213212cb27564bbc40fe21052c141, type: 3}
+=======
         m_Texture: {fileID: 2800000, guid: 691cc4c6df550f94e989fd7111efdb96, type: 3}
+>>>>>>> MergeHandler
         m_Scale: {x: 600, y: 600}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _DepthFade: -5.66
+    - _DepthFade: 29
     - _DistanceVisibility: 10
     - _Fade: 1
     - _Intensity: 0.6
+<<<<<<< HEAD
+    - _WaterLevel: 39
+=======
     - _WaterLevel: 4.34
+>>>>>>> MergeHandler
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
