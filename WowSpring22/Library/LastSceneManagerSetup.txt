@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_Scenes/Hula.unity
+- path: Assets/Jake'sFolder/Map.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
