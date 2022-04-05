@@ -584,6 +584,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 864787431407865791, guid: 75ffcb00e6aed3f458d405f5b86087bf,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: EricMapBackup
+      objectReference: {fileID: 0}
     - target: {fileID: 8384032743598214188, guid: 75ffcb00e6aed3f458d405f5b86087bf,
         type: 3}
       propertyPath: m_Name
@@ -1974,8 +1979,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -107.9, y: 54.4}
-  m_SizeDelta: {x: 160, y: 32}
+  m_AnchoredPosition: {x: -177, y: 54.4}
+  m_SizeDelta: {x: 250.67, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797231796
 MonoBehaviour:
@@ -2009,7 +2014,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Current-
+  m_Text: Present Day- 2022
 --- !u!222 &797231797
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2584,9 +2589,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam1: {fileID: 823473206}
   cam2: {fileID: 397446067}
+  cam3: {fileID: 823473206}
+  mainCam: {fileID: 823473206}
   zoomCam: {fileID: 1290626287}
   sf: {fileID: 125723252}
   sec: 1
+  hulaInfo: {fileID: 0}
+  galInfo: {fileID: 0}
+  bapInfo: {fileID: 0}
 --- !u!114 &968942047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2679,8 +2689,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -107.9, y: -55.16}
-  m_SizeDelta: {x: 160, y: 32}
+  m_AnchoredPosition: {x: -220, y: -55.16}
+  m_SizeDelta: {x: 348.1, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &980860746
 MonoBehaviour:
@@ -2714,7 +2724,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 AD-
+  m_Text: Anthropocene 1930-1970
 --- !u!222 &980860747
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2982,7 +2992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -107.9, y: 159.4}
+  m_AnchoredPosition: {x: -132, y: 159.4}
   m_SizeDelta: {x: 160, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1199524728
@@ -3017,7 +3027,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2050 AD-
+  m_Text: Near Future
 --- !u!222 &1199524729
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4327,8 +4337,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -107.9, y: -156}
-  m_SizeDelta: {x: 160, y: 32}
+  m_AnchoredPosition: {x: -166, y: -156}
+  m_SizeDelta: {x: 241.4, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1965000436
 MonoBehaviour:
@@ -4362,7 +4372,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1080 BC-
+  m_Text: 11,000 Years Ago
 --- !u!222 &1965000437
 CanvasRenderer:
   m_ObjectHideFlags: 0

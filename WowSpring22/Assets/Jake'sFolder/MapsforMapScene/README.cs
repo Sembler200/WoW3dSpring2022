@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class README : MonoBehaviour
-{ }
+//public class README : MonoBehaviour
+//{ }
 
     /* The dimensions of terrain plot is 
      * W = 6912
