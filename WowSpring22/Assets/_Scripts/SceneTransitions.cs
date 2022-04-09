@@ -19,7 +19,7 @@ public class SceneTransitions : MonoBehaviour
     public IEnumerator Transition()
     {
         //transition.SetTrigger("Start");
-        cam.fieldOfView += 30;
+        //cam.fieldOfView += 30;
         yield return new WaitForSeconds(sec);
         sc.LoadScene(toScene);
     }
