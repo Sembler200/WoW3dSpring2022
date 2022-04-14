@@ -9,7 +9,7 @@ public class Buttons : MonoBehaviour
     public SceneFader sf;
     public float sec;
 
-    public GameObject hulaInfo, galInfo, bapInfo;
+    public GameObject hulaInfo, galInfo, bapInfo, landInfo, birdInfo;
 
     public void ChangeCam1()
     {
@@ -68,12 +68,22 @@ public class Buttons : MonoBehaviour
         {
             bapInfo.SetActive(true);
         }
+        if(loc == "dog")
+        {
+            landInfo.SetActive(true);
+        }
+        if (loc == "bird")
+        {
+            birdInfo.SetActive(true);
+        }
     }
     public void CloseInfo()
     {
         hulaInfo.SetActive(false);
         galInfo.SetActive(false);
         bapInfo.SetActive(false);
+        landInfo.SetActive(false);
+        birdInfo.SetActive(false);
     }
 
 }
