@@ -1,4 +1,4 @@
-﻿#if UNITY_EDITOR
+﻿/*#if UNITY_EDITOR
 
 using UnityEngine;
 #if UNITY_POST_PROCESSING_STACK_V1 && !UNITY_POST_PROCESSING_STACK_V2 && AQUAS_PRESENT
@@ -33,3 +33,4 @@ public class AQUAS_CameraSwitcher : MonoBehaviour {
 }
 
 #endif
+*/

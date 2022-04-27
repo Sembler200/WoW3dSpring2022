@@ -54,28 +54,12 @@ public class Buttons : MonoBehaviour
         sf.FadeTo(scene);
     }
 
-    public void OpenInfo(string loc)
+    public void OpenInfo(GameObject canvas)
     {
-        if(loc == "hula")
-        {
-            hulaInfo.SetActive(true);
-        }
-        if (loc == "gal")
-        {
-            galInfo.SetActive(true);
-        }
-        if (loc == "bap")
-        {
-            bapInfo.SetActive(true);
-        }
-        if(loc == "dog")
-        {
-            landInfo.SetActive(true);
-        }
-        if (loc == "bird")
-        {
-            birdInfo.SetActive(true);
-        }
+        canvas.SetActive(true);
+
+
+       
     }
     public void CloseInfo()
     {
@@ -85,5 +69,6 @@ public class Buttons : MonoBehaviour
         landInfo.SetActive(false);
         birdInfo.SetActive(false);
     }
+
 
 }
