@@ -56,6 +56,11 @@ public class Buttons : MonoBehaviour
 
     public void OpenInfo(GameObject canvas)
     {
+        hulaInfo.SetActive(false);
+        galInfo.SetActive(false);
+        bapInfo.SetActive(false);
+        landInfo.SetActive(false);
+        birdInfo.SetActive(false);
         canvas.SetActive(true);
 
 

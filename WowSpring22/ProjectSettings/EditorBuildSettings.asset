@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/Hula.unity
     guid: 21a9f4e6d53cba94a93d50c7f3d4aa5c
   - enabled: 1
-    path: Assets/_Scenes/Gal.unity
-    guid: 520ef8159f2038445b14a8d7159c7c71
-  - enabled: 1
     path: Assets/_Scenes/SampleScene.unity
     guid: b5a12359463222649be45e15b223af8e
+  - enabled: 1
+    path: Assets/_Scenes/Gal.unity
+    guid: 85d6188d34ccc09489a144306934f2ed
   m_configObjects: {}
