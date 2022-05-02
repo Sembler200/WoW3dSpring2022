@@ -2168,22 +2168,27 @@ PrefabInstance:
     - target: {fileID: 2234622601449594819, guid: 79e98346946d5c24caa25e42c170ac66,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2234622601449594819, guid: 79e98346946d5c24caa25e42c170ac66,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2234622601449594819, guid: 79e98346946d5c24caa25e42c170ac66,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 2234622601819363408, guid: 79e98346946d5c24caa25e42c170ac66,
         type: 3}
       propertyPath: m_Name
       value: TimeCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234622601819363408, guid: 79e98346946d5c24caa25e42c170ac66,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2234622601819363412, guid: 79e98346946d5c24caa25e42c170ac66,
         type: 3}
@@ -6008,7 +6013,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968942045}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdc6b4c18401ad544ab16f3faf2e475a, type: 3}
   m_Name: 
