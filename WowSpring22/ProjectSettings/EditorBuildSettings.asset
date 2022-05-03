@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Gal.unity
     guid: 85d6188d34ccc09489a144306934f2ed
-  - enabled: 0
+  - enabled: 1
     path: Assets/Jake'sFolder/Jake'sFolder/Baptism.unity
     guid: 01e44b6c77449a94a89935ae48448ee0
   m_configObjects: {}
