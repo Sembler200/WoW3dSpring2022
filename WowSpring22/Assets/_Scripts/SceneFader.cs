@@ -14,6 +14,7 @@ public class SceneFader : MonoBehaviour
         StartCoroutine(FadeIn());
     }
 
+    //fades to scene you want
     public void FadeTo(string scene)
     {
         StartCoroutine(FadeOut(scene));
@@ -21,6 +22,7 @@ public class SceneFader : MonoBehaviour
 
     IEnumerator FadeIn()
     {
+        //on scene open, runs quick fade from white
         float t = 1f;
 
         while (t > 0)
@@ -37,6 +39,7 @@ public class SceneFader : MonoBehaviour
 
     IEnumerator FadeOut(string scene)
     {
+        //on scene out fades to white then switches scene, works nice with fade in
         float t = 0f;
 
         while (t < 1f)

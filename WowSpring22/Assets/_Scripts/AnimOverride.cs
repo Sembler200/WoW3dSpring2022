@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AnimOverride : MonoBehaviour
 {
+    //overrides the animation
     private Animator anim;
-    // Start is called before the first frame update
     void Awake()
     {
         anim = GetComponent<Animator>();

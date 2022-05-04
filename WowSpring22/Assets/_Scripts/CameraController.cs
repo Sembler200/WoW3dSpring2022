@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    //private bool doMove = true;
-
+    //camera settings for editor
     public float panSpeed = 30f;
     public float panBorderThickness = 10;
     private float camYRot;
@@ -23,7 +22,6 @@ public class CameraController : MonoBehaviour
     public float xRotationLowerLimit = 10f;
     public float xRotationUpperLimit = 90f;
 
-    // Start is called before the first frame update
     void Start()
     {
         //gets the current rotations
@@ -31,13 +29,9 @@ public class CameraController : MonoBehaviour
         camZRot = transform.rotation.z;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        /*if (GameManager.GameIsOver)
-        {
-            this.enabled = false;
-        }*/
+        //does movement. can change w, s, d, and a to arrow keys.
 
         float mouseY = Input.mousePosition.y;
         float mouseX = Input.mousePosition.x;
@@ -85,14 +79,5 @@ public class CameraController : MonoBehaviour
 
         }
 
-
-
-       /* float scroll = Input.GetAxis("Mouse ScrollWheel");
-
-        Vector3 pos = transform.position;
-
-        pos.y -= scroll * 1000*  scrollSpeed * Time.deltaTime;
-        pos.y = Mathf.Clamp(pos.y, minY, maxY);
-        transform.position = pos;*/
     }
 }

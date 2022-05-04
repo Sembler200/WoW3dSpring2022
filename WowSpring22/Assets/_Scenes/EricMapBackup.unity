@@ -1445,6 +1445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 192538331}
+  - component: {fileID: 192538332}
   m_Layer: 0
   m_Name: Birds2
   m_TagString: Untagged
@@ -1472,6 +1473,25 @@ Transform:
   m_Father: {fileID: 1565379250}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &192538332
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192538330}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0818e1eae4d3cb46814aea62effbf6b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &192567638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5826080506009100564, guid: 79e98346946d5c24caa25e42c170ac66,
@@ -5603,6 +5623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 656946051}
+  - component: {fileID: 656946052}
   m_Layer: 0
   m_Name: Birds3
   m_TagString: Untagged
@@ -5630,6 +5651,25 @@ Transform:
   m_Father: {fileID: 1565379250}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &656946052
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656946050}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0818e1eae4d3cb46814aea62effbf6b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &686207429
 GameObject:
   m_ObjectHideFlags: 0
@@ -10952,7 +10992,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh81750
+  m_Name: pb_Mesh37998
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

@@ -5,16 +5,12 @@ using UnityEngine.UI;
 
 public class TimeTravel : MonoBehaviour
 {
+    //DONT NEED ANYMORE
+    //Keyframe the timeline instead. Timeline can be keyframed to be more accurate, and have additional components
     public Scrollbar slide;
     public float scrollScale;
     public GameObject target;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
         target.transform.position = new Vector3(0.0f, slide.value * scrollScale, 0.0f);

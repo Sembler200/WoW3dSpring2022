@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SceneTransitions : MonoBehaviour
 {
+    //DONT NEED THIS. All replaced by sceneFader
     public Animator transition;
     public float sec;
     public SceneController sc;
@@ -18,8 +19,7 @@ public class SceneTransitions : MonoBehaviour
     }
     public IEnumerator Transition()
     {
-        //transition.SetTrigger("Start");
-        //cam.fieldOfView += 30;
+
         yield return new WaitForSeconds(sec);
         sc.LoadScene(toScene);
     }

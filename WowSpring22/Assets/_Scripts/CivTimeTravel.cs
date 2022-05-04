@@ -16,12 +16,6 @@ public class CivTimeTravel : MonoBehaviour
 
     public TimelineAsset savedtimeline;
 
-
-    /*public bool goodTime;
-    public PlayableAsset badp;
-    public TrackAsset saved;
-    public AnimationPlayableAsset hope;*/
-
     public Text buttonText;
     public bool isHelp = false;
 
@@ -30,7 +24,7 @@ public class CivTimeTravel : MonoBehaviour
         pb.playableGraph.GetRootPlayable(0).SetSpeed(0);
     }
 
-
+    //makes timeline move with graph. Timeline can only go to 60frames
     public void SetTime()
     {
         Debug.Log(sb.value);
@@ -45,6 +39,7 @@ public class CivTimeTravel : MonoBehaviour
         pb.playableGraph.GetRootPlayable(0).SetSpeed(0);
     }
 
+    //gets the tracks in the timeline and makes sure one is muted
     public void MuteUnmuteTrack(int trackIndex)
     {
         TrackAsset myTrack = savedtimeline.GetOutputTrack(trackIndex);
@@ -53,6 +48,8 @@ public class CivTimeTravel : MonoBehaviour
        // pb.RebuildGraph();
     }
 
+    //mutes active timeline anim and unmutes the unactive one
+    //seamless so you can switch between the 2 timelines
     public void SwitchTimeline()
     {
         MuteUnmuteTrack(1);
